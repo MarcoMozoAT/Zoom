@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #0A59A8;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 10px 5px -5px rgb(0 0 0 /10%);
+}
+
+header h1 {
+    flex: 1; /* Ocupa el espacio restante */
+    text-align: center; /* Centra el texto */
+    margin: 0; /* Elimina el margen predeterminado del h1 */
+  }
+  
+.salir-icono {
+    font-size: 25px; /* Tamaño del icono */
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+    cursor: pointer;
+  }
+
+  header a {
+    text-decoration: none; 
+    color: inherit; 
+  }
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse
+}
+
+table th,
+table td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.head {
+    background-color: #c21212;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 29px;
+}
+
+table th:first-child,
+table td:first-child {
+    border-left: none;
+}
+
+table th:last-child,
+table td:last-child {
+    border-right: none;
+}
+
+.buttonE,
+.button,
+.buttonComenzar,
+.buttonCancelar {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0A59A8;
+    border: 1px solid #0A59A8;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+}
+
+.buttonE:hover {
+    background-color: #0A59A8;
+    color: white;
+}
+
+.button:hover {
+    background-color: #0A59A8;
+    color: white;
+}
+
+.buttonN {
+    display: block;
+    width: 9%;
+    margin: 20px 130px;
+    text-align: left;
+    color: #ffffff;
+    border: 1px solid #0A59A8;
+    background-color: #0A59A8;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.buttonN:hover {
+    background-color: #1265ca;
+    border-color: #1265ca;
+    color: white;
+}
+
+
+/*el modal estará oculto */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    border-radius: 15px;
+    width: 40%;
+}
+
+.TittleModal {
+    background-color: #fafafa;
+    border-radius: 15px 15px 0 0;
+    padding: 15px;
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    padding: 25px 50px;
+}
+
+label {
+    font-weight: bold;
+    color: #252525;
+    margin-bottom: 5px;
+}
+
+input[type="text"],[type="date"],[type="time"] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+input[type="text"]:hover {
+    border-bottom: 1px solid #0A59A8;
+}
+input[type="date"]:hover {
+    border-bottom: 1px solid #0A59A8;
+}
+
+.button-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+input[type="submit"],
+button.cancel-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0A59A8;
+    color: white;
+    cursor: pointer;
+}
+
+button.cancel-btn {
+    background-color: #C21212;
+}
+
+#mensajeAlerta {
+    color: #2ecc71; /* Color verde elegante */
+    font-size: 20px; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+  }
+
+
+
+  .Cformulario{
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
+    margin: 10px 280px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .TittleForm{
+    margin: 18px auto;
+text-align: center;
+
+
+
+  }
